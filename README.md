@@ -17,7 +17,7 @@ As an assignment for CSCI 5525 - Machine Learning, we had to implement a linear 
 3. mySoftplus(filename,k,numruns)
 
 
-## Problem 1: myDualSVM(filename, C)
+### Problem 1: `myDualSVM(filename, C)`
 
 Goal: To implement a linear SVM with slack variables in dual form using the CVXOPT library to determine support vectors and associated weights. 
 
@@ -34,7 +34,7 @@ myDualSVM(filename,C)
 ```
 
 
-## Problem 2a: `myPegasos(filename, k,numruns)`
+### Problem 2a: `myPegasos(filename, k,numruns)`
 
 Goal: Implement the Pegasos algorithm to evaluate its performance on the MNIST-13 dataset for varying batch sizes.
 
@@ -52,7 +52,7 @@ myPegasos(filename,k,numruns)
 ```
 
 
-## Problem 2b: `mySoftplus(filename, k,numruns)`
+### Problem 2b: `mySoftplus(filename, k,numruns)`
 
 Goal: Implement the Pegasos algorithm to evaluate its performance on the MNIST-13 dataset for varying batch sizes.
 

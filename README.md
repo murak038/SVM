@@ -54,7 +54,7 @@ myPegasos(filename,k,numruns)
 
 ### Problem 2b: `mySoftplus(filename, k,numruns)`
 
-Goal: Implement the Pegasos algorithm to evaluate its performance on the MNIST-13 dataset for varying batch sizes.
+Goal: Use a softened hingeloss called ”soft-plus” to create an analytically computable gradient for a primal SVM
 
 Input:
 - filename: name and path of csv file containing target in first column and data in the other
